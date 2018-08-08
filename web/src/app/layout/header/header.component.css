@@ -1,0 +1,44 @@
+mat-toolbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  min-height: 85vh;
+  background-image: url('/src/assets/images/main_logo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  background-position: 0 -30vh;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.nav-item {
+  font-family: Anton;
+  padding: 0 3vw 0 3vw;
+}
+
+.logo_text_container {
+  height: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.logo_text {
+  line-height: 8vw;
+  font-family: Anton;
+  display: block;
+  color: white;
+  font-size: 8vw;
+  text-shadow: .1em .1em .1em #000;
+
+}
+
+.text_orange {
+  color: orange;
+}

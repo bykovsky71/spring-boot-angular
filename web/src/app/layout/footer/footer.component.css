@@ -1,0 +1,17 @@
+mat-toolbar {
+  color: white;
+  min-height: 10vh;
+  background-image: url('/src/assets/images/footer_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  background-position: 0 -110vh;
+}
+
+.footer {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.email_link {
+  color: white;
+  text-decoration: none;
+}
